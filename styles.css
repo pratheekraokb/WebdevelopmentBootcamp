@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+div.container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+
+}
+div.left{
+    width:50%;
+    background-color: aquamarine;
+    background: url('/images/signIn.avif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+
+}
+div.right{
+    width: 45%;
+    
+    /* background-color: rgb(194, 186, 186); */
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 90%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+form h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+input{
+    padding: 15px;
+    border-radius: 6px;
+    width: 300px;
+    margin: 10px;
+    font-style: italic;
+}
+#submitForm{
+    background-color: red;
+    border: 5px yellow solid;
+    color: aliceblue;
+    border-radius: 15px;
+    font-weight: bolder;
+    width: 100%;
+}
+#submitForm:hover{
+    background-color: rgb(1, 1, 1);
+    color: rgb(250, 248, 248);
+    cursor: pointer;
+}
+label{
+    font-weight: bold;
+}
+p.text{
+    padding-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color:antiquewhite
+}
+a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
