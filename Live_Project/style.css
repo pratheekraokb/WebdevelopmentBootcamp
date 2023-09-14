@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+div.container{
+    width: 100vw;
+    height:100vh;
+    background-color: white;
+    display: flex;
+
+}
+div.left{
+    height:100%;
+    width:50%;
+    /* background-color: blue; */
+    background: url('images/signIn.avif');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    /* background-size: 50%; */
+}
+div.right{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.right h1{
+    padding: 20px;
+    font-size: 40px;
+    color: yellow;
+}
+label{
+    font-weight: bold;
+    padding-top: 5px;
+}
+input{
+    padding:10px;
+    color: red;
+    font-style: italic;
+    margin: 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+.submitBtn{
+    width:95%;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    background-color: red;
+    color:wheat;
+    font-weight: bold;
+    height: 60px;
+}
+
+.submitBtn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
+}
+p{
+    padding-top: 20px;
+    font-size: 22px;
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+a:hover{
+    text-decoration: underline;
+}
